@@ -147,8 +147,14 @@ button:hover {
 
 .cards {
     background-color: white;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    border-left: 10px solid #bae6fd;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cards:hover {
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .information {
@@ -161,10 +167,21 @@ button:hover {
 }
 
 .card {
-
     background-color: white;
     border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.inner-text {
+    width: 300px;
+}
+.card-text {
+    margin: 20px;
+    height: 70%;
 }
 
 
