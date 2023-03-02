@@ -122,11 +122,6 @@ button:hover {
     color: #28282b;
 }
 
-/* Side Bar */
-.side-bar {
-    background-color: #bae6fd;
-    grid-row: 1 / 3;
-}
 
 
 /* Main Content */
@@ -239,5 +234,15 @@ button:hover {
     align-items: center;
 }
 
+/* Side Bar */
+.side-bar {
+    background-color: #bae6fd;
+    grid-row: 1 / 3;
+    font-family: 'roboto', sans-serif;
+}
 
+.icons {
+    display: flex;
+
+}
 
